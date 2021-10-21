@@ -11,7 +11,7 @@ import com.myweather.radar.IpmaCityForecast;
 import com.myweather.radar.IpmaService;
 import com.myweather.radar.CityForecast;
 
-import java.util.logging.Logger;
+//import java.util.logging.Logger;
 
 /**
  * demonstrates the use of the IPMA API for weather forecast
