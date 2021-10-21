@@ -1,13 +1,17 @@
-package main.java.com.myweather.radar;
+package com.myweather.radar;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import retrofit2.Call;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-import main.java.com.myweather.radar.IpmaCityForecast;
-import main.java.com.myweather.radar.IpmaService;
+import com.myweather.radar.IpmaCityForecast;
+import com.myweather.radar.IpmaService;
+import com.myweather.radar.CityForecast;
 
-import java.util.logging.Logger;
+//import java.util.logging.Logger;
 
 /**
  * demonstrates the use of the IPMA API for weather forecast

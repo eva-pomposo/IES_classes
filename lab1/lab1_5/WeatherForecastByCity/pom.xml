@@ -4,76 +4,26 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.myweather.radar</groupId>
-  <artifactId>my-weather-radar</artifactId>
+  <groupId>com.weatherForecastByCity</groupId>
+  <artifactId>WeatherForecastByCity</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>my-weather-radar</name>
+  <name>WeatherForecastByCity</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
-  <licenses>
-        <license>
-            <name>Apache 2</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-            <distribution>repo</distribution>
-            <comments>A business-friendly OSS license</comments>
-        </license>
-    </licenses>
-
-  <organization>
-      <name>Sonatype</name>
-      <url>http://www.sonatype.com</url>
-  </organization>
-
-  <developers>
-        <developer>
-            <id>evabartolomeu</id>
-            <name>Eva Bartolomeu</name>
-            <email>evabartolomeu@ua.pt</email>
-            <url>http://www.sonatype.com</url>
-            <organization>Sonatype</organization>
-            <organizationUrl>http://www.sonatype.com</organizationUrl>
-            <roles>
-                <role>developer</role>
-            </roles>
-            <timezone>-6</timezone>
-        </developer>
-  </developers>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>11</maven.compiler.source>
-    <maven.compiler.target>11</maven.compiler.target>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>org.apache.logging.log4j</groupId>
-      <artifactId>log4j-api</artifactId>
-      <version>2.6.1</version>
-    </dependency>
-    <dependency>
-        <groupId>org.apache.logging.log4j</groupId>
-        <artifactId>log4j-core</artifactId>
-        <version>2.6.1</version>
-    </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
-    </dependency>
-    <!-- Adding Retrofit dependency. We can search it in the Maven Central Repository Search -->
-    <dependency>
-      <groupId>com.squareup.retrofit2</groupId>
-      <artifactId>retrofit</artifactId>
-      <version>2.9.0</version>
-    </dependency>  
-    <dependency>  
-      <groupId>com.squareup.retrofit2</groupId>
-      <artifactId>converter-gson</artifactId>
-      <version>2.3.0</version>
     </dependency>
   </dependencies>
 
@@ -89,9 +39,6 @@
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
-          <configuration>
-            <encoding>UTF-8</encoding>
-          </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>

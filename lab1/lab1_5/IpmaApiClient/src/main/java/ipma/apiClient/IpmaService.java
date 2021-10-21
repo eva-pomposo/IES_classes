@@ -1,4 +1,4 @@
-package com.myweather.radar;
+package main.java.com.myweather.radar;
 
 
 import retrofit2.Call;
