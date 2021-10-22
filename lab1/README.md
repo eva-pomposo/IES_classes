@@ -109,10 +109,10 @@ There are two other Maven lifecycles of note beyond the default list above. They
 O Maven é apropriado para correr um projeto, porque pode-se construir facilmente o projeto para jar de acordo com seus requisitos usando o Maven, além disso o maven pode adicionar todas as dependências precisas para o projeto automaticamente lendo o ficheiro pom, facilita o início do projeto em diferentes ambientes e não é necessário lidar com a injeção de dependências, compilação e processamento.
 
 ### C) What would be a likely sequence of Git commands required to contribute with a new feature to a given project? (i.e., get a fresh copy, develop some increment, post back the added functionality) 
-git pull
-git add .
-git commit -m "Lab 1 completed"
-git push
+* git pull
+* git add .
+* git commit -m "Lab 1 completed"
+* git push
 ### D) There are strong opinions on how to write Git commit messages... Find some best practices online and give your own informed recommendations on how to write good commit messages (in a team project).  
 
 Dicas de como escrever mensagens commit encontradas na internet:
