@@ -1,4 +1,4 @@
-/home/eva/Documents/IES/IES_98513/lab1/lab1_1/my-weather-radar/src/main/java/com/myweather/radar/ ipma_client_IpmaService.java
-/home/eva/Documents/IES/IES_98513/lab1/lab1_1/my-weather-radar/src/main/java/com/myweather/radar/ ipma_client_CityForecast.java
-/home/eva/Documents/IES/IES_98513/lab1/lab1_1/my-weather-radar/src/main/java/com/myweather/radar/ipma_client_IpmaCityForecast.java
-/home/eva/Documents/IES/IES_98513/lab1/lab1_1/my-weather-radar/src/main/java/com/myweather/radar/ WeatherStarter.java
+/home/eva/Documents/IES_98513/lab1/lab1_2/my-weather-radar/src/main/java/com/myweather/radar/CityForecast.java
+/home/eva/Documents/IES_98513/lab1/lab1_2/my-weather-radar/src/main/java/com/myweather/radar/IpmaService.java
+/home/eva/Documents/IES_98513/lab1/lab1_2/my-weather-radar/src/main/java/com/myweather/radar/WeatherStarter.java
+/home/eva/Documents/IES_98513/lab1/lab1_2/my-weather-radar/src/main/java/com/myweather/radar/IpmaCityForecast.java
