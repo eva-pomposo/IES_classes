@@ -56,7 +56,7 @@ mvn package
 mvn install:install-file -Dfile="/home/eva/Documents/IES_98513/lab1/lab1_5/IpmaApiClient/target/IpmaApiClient-1.0-SNAPSHOT.jar" -DgroupId="ipma.apiClient" -DartifactId="IpmaApiClient" -Dversion="1.0-SNAPSHOT" -Dpackaging=jar 
 ```
 
-* Ainda no projeto WeatherForecastByCity executei o comando:
+* Ainda no projeto WeatherForecastByCity compilei e depois executei com o comando:
 ```
 mvn exec:java -Dexec.mainClass="com.weatherForecastByCity.WeatherStarter" -Dexec.args="Aveiro"  
 ```
