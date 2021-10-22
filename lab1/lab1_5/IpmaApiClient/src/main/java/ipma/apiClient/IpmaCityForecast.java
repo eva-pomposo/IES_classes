@@ -1,4 +1,4 @@
-package main.java.com.myweather.radar;
+package ipma.apiClient;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
@@ -19,13 +19,7 @@ public class IpmaCityForecast {
         @SerializedName("data")
         @Expose
         private List<CityForecast> data = null;
-        @SerializedName("globalIdLocal")
-        @Expose
-        private Integer globalIdLocal;
-        @SerializedName("dataUpdate")
-        @Expose
-        private String dataUpdate;
-
+        
         public String getOwner() {
             return owner;
         }
@@ -50,20 +44,5 @@ public class IpmaCityForecast {
             this.data = data;
         }
 
-        public Integer getGlobalIdLocal() {
-            return globalIdLocal;
-        }
-
-        public void setGlobalIdLocal(Integer globalIdLocal) {
-            this.globalIdLocal = globalIdLocal;
-        }
-
-        public String getDataUpdate() {
-            return dataUpdate;
-        }
-
-        public void setDataUpdate(String dataUpdate) {
-            this.dataUpdate = dataUpdate;
-        }
 }
 
