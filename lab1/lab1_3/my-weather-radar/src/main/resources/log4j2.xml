@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="DEBUG">
     <Appenders>
-        <File name="LogToFile" fileName="logs/weather.log">
+        <File name="LogToFile" fileName="logs/my-weather.log">
             <PatternLayout>
                 <Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %m%n</Pattern>
             </PatternLayout>
         </File>
     </Appenders>
     <Loggers>
-        <Logger name="com.MyWeatherRadar.weather.WeatherStarter" level="debug" additivity="false">
+        <Logger name="com.myweather.radar.WeatherStarter" level="debug" additivity="false">
             <AppenderRef ref="LogToFile"/>
         </Logger>
         <Root level="error">

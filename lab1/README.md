@@ -33,6 +33,8 @@ E dps este comando:
 mvn exec:java -Dexec.mainClass="com.weatherForecastByCity.WeatherStarter" -Dexec.args="Aveiro"  
 
 ## Notas:
+gitignore n funciona;
+alinea e do 1.4
 
 ###Os comandos mais uteis no Maven:
  

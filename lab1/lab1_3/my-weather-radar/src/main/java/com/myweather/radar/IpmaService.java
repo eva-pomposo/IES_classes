@@ -14,3 +14,4 @@ public interface IpmaService {
     Call<IpmaCityForecast> getForecastForACity(@Path("city_id") int cityId);
 
 }
+
