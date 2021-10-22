@@ -1,6 +1,8 @@
 lab1/lab1_2/my-app/
 lab1/lab1_2/my-weather-radar/
 lab1/lab1_3/my-weather-radar/
+lab1/lab1_5/IpmaApiClient/
+lab1/lab1_5/WeatherForecastByCity/
 
 ## maven
 target/
