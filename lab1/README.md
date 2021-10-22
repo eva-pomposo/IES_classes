@@ -129,3 +129,6 @@ Dicas que recomendo para escrever mensagens commit:
 * Não fazer commits quando a compilação e execução do projeto dá  erro. 
 
 ### E) Docker automatically prepares the required volume space as you start a container. Why is it important that you take an extra step configuring the volumes for a (production) database?
+
+Volumes são importantes para containers onde é necessário persistir os dados do mesmo em caso de falha. Em casos como o deploy de uma base de dados em Docker, os volumes são utilizados pois o Docker irá eliminar os dados quando o container é encerrado.
+Além disso, os volumes são uma escolha melhor do que dados persistentes na camada gravável de um container, porque um volume não aumenta o tamanho dos containers que o utilizam, e o conteúdo do volume existe fora do ciclo de vida de um determinado container.
