@@ -2,9 +2,7 @@
 
 Neste diretório encontra-se a resolução da ficha Lab2, proposta pela cadeira Introdução à Engenharia de Software, curso de Engenharia Informática da Universidade de Aveiro.
 
-Este README apresenta alguns passos relevantes, e não muito intuitivos, que foram feitos em alguns exercícios (secção 2.1, 2.2, 2.3 e 2.4).
-
-Além disso, contém notas importantes aprendidas na realização deste laboratório (secção Notas).
+Este README apresenta alguns passos relevantes, e não muito intuitivos, que foram feitos em alguns exercícios (secção 2.1, 2.2 e 2.3).
 
 Por fim, pode-se encontrar as respostas das questões fornecidas na seção Review questions.
 
