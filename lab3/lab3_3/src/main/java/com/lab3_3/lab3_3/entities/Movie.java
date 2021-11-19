@@ -1,4 +1,4 @@
-package com.lab3_2.lab3_2.entities;
+package com.lab3_3.lab3_3.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -13,7 +13,7 @@ public class Movie {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
 
-    private long id;
+    private int id;
     private String title;
     private int year;
  
@@ -27,10 +27,10 @@ public class Movie {
     }
  
     @Column(name = "id", nullable = false)
-    public long getId() {
+    public int getId() {
         return id;
     }
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 

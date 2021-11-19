@@ -2,7 +2,7 @@
 
 Neste diretório encontra-se a resolução da ficha Lab3, proposta pela cadeira Introdução à Engenharia de Software, curso de Engenharia Informática da Universidade de Aveiro.
 
-Este README apresenta alguns passos relevantes, e não muito intuitivos, que foram feitos em alguns exercícios (secção 3.1, 3.2 e 3.3).
+Este README apresenta alguns passos relevantes, e não muito intuitivos, que foram feitos em alguns exercícios (secção 3.1 e 3.2).
 
 Por fim, pode-se encontrar as respostas das questões fornecidas na seção Review questions.
 
@@ -23,7 +23,8 @@ Os métodos invocados no “userRepository” pelo “UserController” sao:
 Os métodos sao defenidos na classe "UserRepository", estes sao herdados pela interface CrudRepository.
 
 3. **Where is the data being saved?**
-Na Base de dados in-memory.
+
+Como definimos nas dependencias, os dados sao salvos usando o h2database. Caso nao defenissemos nas dependencias, os dados eram salvos em in-memory database.
 
 4. **Where is the rule for the “not empty” email address defined?**
 Na classe User, na seguinte anotaçao: @NotBlank(message = "Phone is mandatory")
@@ -54,19 +55,16 @@ Para testar a minha aplicaçao usando o Postman segui os seguintes passos:
 
 * Abrir o Postman, e criar um basico HTTP request: "Create a basic HTTP request"
 
-* Seguir as capturas de ecra que se podem encontrar na pasta...
-
-
-## 3.3 Wrapping-up and integrating concepts
-
-
 ## Review questions:
 
 ### A. Explain the differences between the RestController and Controller components used in different parts of this lab. 
 
-The @Controller is a common annotation that is used to mark a class as Spring MVC Controller while @RestController is a special controller used in RESTFul web services and the equivalent of @Controller + @ResponseBody.
+* @Controller: anotaçao que marca uma classe como Spring MVC Controller;
+* @RestController: é um controller usado em serviços de Web RESTFUL, equivalente a is a @Controller + @ResponseBody.dy
 
 ### B. Create a visualization of the Spring Boot layers (UML diagram or similar), displaying the key abstractions in the solution of 3.3, in particular: entities, repositories, services and REST controllers. Describe the role of the elements modeled in the diagram.
+
+O diagrama está representado na imagem "diagramaReviewQuestionB.png", neste diretório.
 
 ### C. Explain the annotations @Table, @Colum, @Id found in the Employee entity. 
 

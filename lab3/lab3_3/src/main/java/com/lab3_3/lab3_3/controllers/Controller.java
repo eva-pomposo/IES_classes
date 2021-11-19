@@ -3,7 +3,7 @@ package com.lab3_3.lab3_3.controllers;
 import com.lab3_3.lab3_3.entities.Movie;
 import com.lab3_3.lab3_3.entities.Quote;
 import com.lab3_3.lab3_3.services.MovieService;
-import com.lab3_3.lab3_3.services.QuoteeService;
+import com.lab3_3.lab3_3.services.QuoteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

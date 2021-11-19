@@ -1,4 +1,4 @@
-package com.lab3_2.lab3_2.entities;
+package com.lab3_3.lab3_3.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

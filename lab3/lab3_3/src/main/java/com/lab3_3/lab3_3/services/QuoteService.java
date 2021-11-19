@@ -15,14 +15,14 @@ import org.springframework.stereotype.Service;
 public class QuoteService {
 
     @Autowired
-    private QuoteService quoteService;
+    private QuoteRepository quoteRepository;
 
     public Quote saveQuote(Quote quote) {
         return quoteRepository.save(quote);
     }
 
     public List<Quote> saveQuotes(List<Quote> quotes) {
-        return quoteService.saveAll(quotes);
+        return quoteRepository.saveAll(quotes);
     }
 
     public List<Quote> getQuotes() {
@@ -30,11 +30,11 @@ public class QuoteService {
     }
 
     public Quote getQuoteById(int id) {
-        return quoteService.findById(id).orElse(null);
+        return quoteRepository.findById(id).orElse(null);
     }
 
     public String deleteQuote(int id) {
-        quoteService.deleteById(id);
+        quoteRepository.deleteById(id);
         return "quote removed !! " + id;
     }
 
