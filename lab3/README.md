@@ -11,9 +11,11 @@ Por fim, pode-se encontrar as respostas das questões fornecidas na seção Revi
 ### b)
 
 1. **The “UserController” class gets an instance of “userRepository” through its constructor; how is this new repository instantiated?**
+
 O novo repository é instanciado através da anotaçao @Autowired.
 
 2. **List the methods invoked in the “userRepository” object by the “UserController”. Where are these methods defined?**
+
 Os métodos invocados no “userRepository” pelo “UserController” sao:
 * findAll()
 * save(user)
@@ -27,6 +29,7 @@ Os métodos sao defenidos na classe "UserRepository", estes sao herdados pela in
 Como definimos nas dependencias, os dados sao salvos usando o h2database. Caso nao defenissemos nas dependencias, os dados eram salvos em in-memory database.
 
 4. **Where is the rule for the “not empty” email address defined?**
+
 Na classe User, na seguinte anotaçao: @NotBlank(message = "Phone is mandatory")
 
 ## 3.2 Multilayer applications: exposing data with REST interface
